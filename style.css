@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*ALAP ELEMEK*/
+nav{
+    font-family: Roboto;
+}
+
+body{
+    background-image: url(/backgrounds/főtér.jpg);
+}
+
+#test{
+    font-size: xx-large;
+}
+/*ALAP ELEMEK*/
+
+/*FŐOLDAL*/
+.headH{
+    color: white;
+    font-family: Roboto;
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-shadow: 10px 10px 12px #000000;
+}
+
+.headH img{
+    width: 15%;
+}
+
+.homeCard{
+    width: 500px;
+    height: 300px;
+    background-color: #A1A3ED;
+    margin: 0 auto;
+    border-radius: 70px;
+}
+.homeCardSpace{
+    height: 50px;
+}
+/*FŐOLDAL*/
