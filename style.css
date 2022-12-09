@@ -1,16 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*FUNKCIÓK*/
+
+
+
+/*FUNKCIÓK*/
+
 /*ALAP ELEMEK*/
-nav{
-    font-family: Roboto;
+html{ /*Footer tökéletes igazításához...*/
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{ /*Footer tökéletes igazításához...*/
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6.74rem;
+    box-sizing: inherit;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: Roboto !important;
+    }
+.nav-link:hover {
+    color: #7c7fc4 !important;
+    font-family: Roboto !important;
+    }
+.active{
+    color: #A1A3ED !important;
+}
+
+.bg-custom{
+    background-color: #a1a3ed54;
+    font-size: 30px;
+}
+
+.navLogo{
+    width: 100px;
 }
 
 body{
-    background-image: url(/backgrounds/főtér.jpg);
+    background-image: url(backgrounds/főtér.jpg);
 }
 
 #test{
     font-size: xx-large;
+}
+
+footer{
+    background-color: #a1a3ed54;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+a:link{
+    text-decoration: none;
+}
+.copyright{
+    font-family: Roboto;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 30px;
+    color: white;
+    position: absolute;
+}
+.footerLogo{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
 }
 /*ALAP ELEMEK*/
 
@@ -30,13 +92,45 @@ body{
 }
 
 .homeCard{
-    width: 500px;
-    height: 300px;
+    width: 30vw;
+    height: 15vw;
     background-color: #A1A3ED;
     margin: 0 auto;
     border-radius: 70px;
+    animation: cardUnhover 0.5s ease 0s 1 normal forwards; 
 }
+
+.homeCard:hover{
+    animation: cardHover 0.5s ease 0s 1 normal forwards; 
+}
+@keyframes cardHover {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+@keyframes cardUnhover {
+	0% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 .homeCardSpace{
-    height: 50px;
+    height: 5vw;
+}
+
+.cardText{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    padding-top: 4.5vw;
+    font-family: Roboto;
 }
 /*FŐOLDAL*/
