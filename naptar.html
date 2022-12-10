@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>10I | Főoldal</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="navLogo" src="icons/10I Logo.png" alt="10.I."></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="nevsor.html">Osztályévsor</a>
+              <a class="nav-link active" aria-current="page" href="esemenyek.html">Események</a>
+              <a class="nav-link" href="sanyagok.html">Segédanyagok</a>
+              <a class="nav-link" href="galeria.html">Galéria</a>
+              <a class="nav-link" href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%2520offline_access%2520kreta-core-webapi.public%26state%3DOpenIdConnect.AuthenticationProperties%253DWro3tCX9pG2jRXG3BpJjeCHY7h_GcOpvISf78A2RLpGCyA5Yyp42nguMp-PPcet1nzX80UNEcE0EpudQAy0m5DJUGijTZJxl1msGDXJoCdTVbatInPx2g5r3PC1tVwwjlUImxQUEWOAaSewKW_PmDw%26response_mode%3Dform_post%26nonce%3D638061994207656034.ZmIxYmYxOGMtNmQ0Ni00OTFkLTlmYTItMDRkZGJjY2JmZDMzOWEwOWEzMTctOWIxNS00MjdjLTljNzAtNTYwNGMxNmY1ODIx%26institute_code%3Dszbi-kiskunfelegyhaza%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDIyLjEyLjA4LiAyMDowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW50ZXR0X2dvbmR2aXNlbG8iOmZhbHNlLCJpc19pbnRlem1lbnlfcm92aWRuZXYiOmZhbHNlLCJpc19zdWNjZXNzX2F1dGhvcml6ZWRfZGF0ZSI6ZmFsc2V9%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fszbi-kiskunfelegyhaza.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin" target="_blank">Kréta</a>
+              <a class="nav-link" href="https://github.com/kelemarton/schoolwebproject" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="pageTitle">Események</h1>
+      <p class="pageDes">Itt találod meg, hogy mikor és miből írunk dolgozatokat, valamint eseményeket mint például ünnepek vagy kirándulások.</p>
+
+      <div class="rovEsem">
+        <h2 class="rovEsemText">Megjelenés: <a class="rovEsemLink" href="esemenyek.html">Lista</a> vagy <a class="rovEsemLink" href="naptar.html">Naptár</a> nézet?</h2>
+      </div>
+
+      <br>
+      <p class="pageDes">Ez itt a <strong>Naptár Nézet</strong>... ha csak rápillantanál az eseményekre, itt teheted a leggyorsabban. Egyből a lényeg, leírást itt nem találasz.</p>
+      <!--ESEMÉNYEK-->
+      <!--Január-->
+      <div class="napBase">
+        <h2 class="napMonth">❄️JANUÁR❄️</h2>
+        <table class="napTable">
+            <tr>
+                <th class="napDay">Hétfő</th>
+                <th class="napDay">Kedd</th>
+                <th class="napDay">Szerda</th>
+                <th class="napDay">Csütörtök</th>
+                <th class="napDay">Péntek</th>
+                <th class="napDay">Szombat</th>
+                <th class="napDay">Vasárnap</th>
+            </tr>
+            <tr>
+                <th class="pastMonth">26 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">27 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">28 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">29 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">30 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">31 <p class="napEsem"><br></p></th>
+                <th>1 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>2 <p class="napEsem"><br></p></th>
+                <th>3 <p class="napEsem"><br></p></th>
+                <th>4 <p class="napEsem"><br></p></th>
+                <th>5 <p class="napEsem"><br></p></th>
+                <th>6 <p class="napEsem"><br></p></th>
+                <th>7 <p class="napEsem"><br></p></th>
+                <th>8 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>9 <p class="napEsem">Téli Szünet <br>Vége</p></th>
+                <th>10 <p class="napEsem"><br></p></th>
+                <th>11 <p class="napEsem"><br></p></th>
+                <th>12 <p class="napEsem"><br></p></th>
+                <th>13 <p class="napEsem"><br></p></th>
+                <th>14 <p class="napEsem"><br></p></th>
+                <th>15 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>16 <p class="napEsem"><br></p></th>
+                <th>17 <p class="napEsem"><br></p></th>
+                <th>18 <p class="napEsem"><br></p></th>
+                <th>19 <p class="napEsem"><br></p></th>
+                <th>20 <p class="napEsem">Félévzárás</p></th>
+                <th>21 <p class="napEsem"><br></p></th>
+                <th>22 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>23 <p class="napEsem"><br></p></th>
+                <th>24 <p class="napEsem"><br></p></th>
+                <th>25 <p class="napEsem"><br></p></th>
+                <th>26 <p class="napEsem"><br></p></th>
+                <th>27 <p class="napEsem"><br></p></th>
+                <th>28 <p class="napEsem"><br></p></th>
+                <th>29 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>30 <p class="napEsem"><br></p></th>
+                <th>31 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">1 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">2 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">3 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">4 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">5 <p class="napEsem"><br></p></th>
+            </tr>
+        </table>
+      </div>
+      <!--Január-->
+      <br><br>
+      <div class="listNap">
+        <h2>🥳2023🥳</h2>
+        <h2>⬇️2022⬇️</h2>
+      </div>
+      <br><br>
+      <!--December-->
+      <div class="napBase">
+        <h2 class="napMonth">🎄DECEMBER🎄</h2>
+        <table class="napTable">
+            <tr>
+                <th class="napDay">Hétfő</th>
+                <th class="napDay">Kedd</th>
+                <th class="napDay">Szerda</th>
+                <th class="napDay">Csütörtök</th>
+                <th class="napDay">Péntek</th>
+                <th class="napDay">Szombat</th>
+                <th class="napDay">Vasárnap</th>
+            </tr>
+            <tr>
+                <th class="pastMonth">28 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">29 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">30 <p class="napEsem"><br></p></th>
+                <th>1 <p class="napEsem"><br></p></th>
+                <th>2 <p class="napEsem"><br></p></th>
+                <th>3 <p class="napEsem"><br></p></th>
+                <th>4 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>5 <p class="napEsem"><br></p></th>
+                <th>6 <p class="napEsem"><br></p></th>
+                <th>7 <p class="napEsem"><br></p></th>
+                <th>8 <p class="napEsem"><br></p></th>
+                <th>9 <p class="napEsem">Pénzügy, <br>Matek</p></th>
+                <th>10 <p class="napEsem">Lelkinap</p></th>
+                <th>11 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>12 <p class="napEsem">Fizika, Tesi</p></th>
+                <th>13 <p class="napEsem">Nyelvtan</p></th>
+                <th>14 <p class="napEsem">Matek</p></th>
+                <th>15 <p class="napEsem">Programozás</p></th>
+                <th>16 <p class="napEsem"><br></p></th>
+                <th>17<p class="napEsem">Téli Szünet <br>Kezdete</p></th>
+                <th>18 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>19 <p class="napEsem"><br></p></th>
+                <th>20 <p class="napEsem"><br></p></th>
+                <th>21 <p class="napEsem"><br></p></th>
+                <th>22 <p class="napEsem"><br></p></th>
+                <th>23 <p class="napEsem"><br></p></th>
+                <th>24 <p class="napEsem"><br></p></th>
+                <th>25 <p class="napEsem"><br></p></th>
+            </tr>
+            <tr>
+                <th>26 <p class="napEsem"><br></p></th>
+                <th>27 <p class="napEsem"><br></p></th>
+                <th>28 <p class="napEsem"><br></p></th>
+                <th>29 <p class="napEsem"><br></p></th>
+                <th>30 <p class="napEsem"><br></p></th>
+                <th>31 <p class="napEsem"><br></p></th>
+                <th class="pastMonth">1 <p class="napEsem"><br></p></th>
+            </tr>
+        </table>
+      </div>
+      <!--December-->
+
+
+      <br> <br> <br>
+      <footer>
+        <p class="copyright">© 2022 10.I.</p>
+        <img class="footerLogo" src="icons/10I Logo.png" alt="10.I.">
+      </footer>
+</body>
+</html>
