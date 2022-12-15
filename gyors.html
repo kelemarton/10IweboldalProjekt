@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>10I | Főoldal</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="navLogo" src="icons/10I Logo.png" alt="10.I."></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="nevsor.html">Osztályévsor</a>
+              <a class="nav-link active" aria-current="page" href="esemenyek.html">Események</a>
+              <a class="nav-link" href="sanyagok.html">Segédanyagok</a>
+              <a class="nav-link" href="galeria.html">Galéria</a>
+              <a class="nav-link" href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%2520offline_access%2520kreta-core-webapi.public%26state%3DOpenIdConnect.AuthenticationProperties%253DWro3tCX9pG2jRXG3BpJjeCHY7h_GcOpvISf78A2RLpGCyA5Yyp42nguMp-PPcet1nzX80UNEcE0EpudQAy0m5DJUGijTZJxl1msGDXJoCdTVbatInPx2g5r3PC1tVwwjlUImxQUEWOAaSewKW_PmDw%26response_mode%3Dform_post%26nonce%3D638061994207656034.ZmIxYmYxOGMtNmQ0Ni00OTFkLTlmYTItMDRkZGJjY2JmZDMzOWEwOWEzMTctOWIxNS00MjdjLTljNzAtNTYwNGMxNmY1ODIx%26institute_code%3Dszbi-kiskunfelegyhaza%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDIyLjEyLjA4LiAyMDowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW50ZXR0X2dvbmR2aXNlbG8iOmZhbHNlLCJpc19pbnRlem1lbnlfcm92aWRuZXYiOmZhbHNlLCJpc19zdWNjZXNzX2F1dGhvcml6ZWRfZGF0ZSI6ZmFsc2V9%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fszbi-kiskunfelegyhaza.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin" target="_blank">Kréta</a>
+              <a class="nav-link" href="https://github.com/kelemarton/schoolwebproject" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="pageTitle">Események</h1>
+      <p class="pageDes">Itt találod meg, hogy mikor és miből írunk dolgozatokat, valamint eseményeket mint például ünnepek vagy kirándulások.</p>
+
+      <div class="rovEsem">
+        <h2 class="rovEsemText">Megjelenés: <a class="rovEsemLink" href="esemenyek.html">Lista</a> <a class="rovEsemLink" href="naptar.html">Naptár</a> <a class="rovEsemLink" href="gyors.html">Gyors</a></h2>
+      </div>
+
+      <br>
+      <p class="pageDes">Ez itt a <strong>Gyors Nézet</strong>... itt megtalálod összefoglalva az összes eseményt és dolgozatot plussz az osztályátlagot is.</p>
+      <br>
+
+      <!--ESEMÉNYEK-->
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <div class="reszCard">
+              <h2 class="sanyagTitle">Fontos Események</h2>
+              <div class="reszElem">
+                <p>Téliszünet: Dec. 17. -> Jan. 8.</p>
+                <p>12.10. Lelkinap</p>
+              </div>
+              <br>
+            </div>
+          </div>
+          <div class="col">
+            <div class="reszCard">
+              <h2 class="sanyagTitle">Dolgozatok</h2>
+                <div class="reszElem">
+                  <p>01.12. Projektmunka Leadása</p>
+                  <p>01.12. Programozás Dolgozat</p>
+                  <p>01.10. Angol(Cs1) Dolgozat</p>
+                  <p>12.15. Programozás Dolgozat (elmaradt)</p>
+                  <p>12.14. Matek Dolgozat (elmaradt)</p>
+                  <p>12.13. Nyelvtan Dolgozat</p>
+                  <p>12.12. Testnevelés Felmérés</p>
+                  <p>12.12. Fizika Dolgozat</p>
+                  <p>12.09. Matek Dolgozat</p>
+                  <p>12.09. Pénzügy Dolgozat</p>
+                </div>
+              <br>
+            </div>
+          </div>
+          <div class="col">
+            <div class="reszCard">
+              <h2 class="sanyagTitle">Osztályátlag (3,65)</h2>
+                <div class="reszElem">
+                  <p>Angol: 4,12</p>
+                  <p>Digitális kultúra: 3,75</p>
+                  <p>Fizika: 2,95</p>
+                  <p>Hittan: 4,40</p>
+                  <p>IKT: 3,56</p>
+                  <p>Informatika és távközlés: 3,94</p>
+                  <p>Irodalom: 3,97</p>
+                  <p>Nyelvtan: 4,74</p>
+                  <p>Matematika: 2,97</p>
+                  <p>Programozás: 3,09</p>
+                  <p>Pénzügyi: 3,32</p>
+                  <p>Testnevelés: 3,98</p>
+                  <p>Történelem: 3,72</p>
+                </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <br> <br> <br> <br> <br>
+      <footer>
+        <p class="copyright">© 2022 10.I.</p>
+        <img class="footerLogo" src="icons/10I Logo.png" alt="10.I.">
+      </footer>
+</body>
+</html>
