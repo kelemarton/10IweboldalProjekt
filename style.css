@@ -216,7 +216,7 @@ hr{
     background-size: cover;
 }
 .galeriaCard{
-    background-image: url(backgrounds/geleria.jpg);
+    background-image: url(backgrounds/orarend.jpg);
     background-size: cover;
 }
 .kretaCard{
@@ -634,6 +634,15 @@ table th {
 
 /*ÓRAREND*/
 /*ÓRAREND*/
-
+.timeBase{
+    background-color: #A1A3ED;
+    border: #7c7fc4 5px solid;
+    width: 90%;
+    height: 1050px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
 /*CUSTOM SCROLLBAR*/
 /*CUSTOM SCROLLBAR*/
