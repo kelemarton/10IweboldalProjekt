@@ -10,6 +10,7 @@
 html{ /*Footer tökéletes igazításához...*/
     height: 100%;
     box-sizing: border-box;
+    font-family: Roboto !important;
 }
 
 body{ /*Footer tökéletes igazításához...*/
@@ -83,10 +84,10 @@ a:link{
     position: absolute;
 }
 .footerLogo{
-    width: 200px;
+    width: 150px;
     position: absolute;
     right: 0;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-right: 30px;
 }
 
@@ -94,7 +95,7 @@ a:link{
     text-align: center;
     padding-top: 2%;
     font-family: Roboto;
-    font-size: 500%;
+    font-size: 410%;
     color: white;
     text-shadow: 10px 10px 12px #000000;
 }
@@ -234,7 +235,7 @@ hr{
     text-align: left;
     padding-top: 2%;
     font-family: Roboto;
-    font-size: 375%;
+    font-size: 350%;
     color: white;
     text-shadow: 10px 10px 12px #000000;
 }
